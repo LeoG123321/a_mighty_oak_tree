@@ -43,3 +43,11 @@ Node* create_node(string name) {
     Node* place_holder = new Node(create_squirrel(name));
     return place_holder;
 }
+
+/*                Squirrel Tree
+                        O
+                       / \
+                      O   O
+                     /|   |\
+                    O O   O O
+*/
